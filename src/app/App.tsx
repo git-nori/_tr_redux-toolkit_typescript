@@ -2,6 +2,7 @@ import React from "react";
 
 import AddTodo from "features/todoList/AddTodo";
 import TodoList from "features/todoList/TodoList";
+import Fotter from "features/visibilityFilter/Footer";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <AddTodo />
       <TodoList />
+      <Fotter />
     </div>
   );
 }
