@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import AddTodo from 'features/todoList/AddTodo'
-import './App.css'
+import AddTodo from "features/todoList/AddTodo";
+import TodoList from "features/todoList/TodoList";
+import "./App.css";
 
 function App() {
   return (
     <div>
       <AddTodo />
+      <TodoList />
     </div>
   );
 }
